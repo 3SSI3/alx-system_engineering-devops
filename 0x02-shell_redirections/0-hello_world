@@ -1,4 +1,4 @@
 #!/bin/bash
-Hello World
+Hello, World
 $ wc -l 0-hello_world
 why?
