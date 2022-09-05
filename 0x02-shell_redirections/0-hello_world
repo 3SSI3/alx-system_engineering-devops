@@ -1,3 +1,4 @@
 #!/bin/bash
-Hello World wc -1 0-hello_world
+Hello World
+$ wc -l 0-hello_world
 why?
