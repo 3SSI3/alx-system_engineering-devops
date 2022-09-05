@@ -1,8 +1,3 @@
 #!/bin/bash
-<<<<<<< HEAD
-su betty $ wc -l 0-iam_betty
-why?
-chmod u+x 0-iam_betty
-=======
 su betty
->>>>>>> 11820550ce992613707b67904067920a6fbdbe31
+
