@@ -1,3 +1,1 @@
-#!/bin/bash
-Shell Navigation. Where am I?
-Why?
+# Shell Navigation. Where am I? :smiley:
