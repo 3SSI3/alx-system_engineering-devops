@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A script displays time from 12 hrs and 59min
 
-hrs=0o
+hrs=0
 #displays hours from 0 to 12
 while [ $hrs -le 12 ]
 do
