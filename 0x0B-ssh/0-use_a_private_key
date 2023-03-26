@@ -1,3 +1,4 @@
-#!/usr/vin/env bash
+#!/usr/bin/env bash
 # Connects to my Holberton Server.
 ssh -i ~/.ssh/school ubuntu@18.207.207.196
+
