@@ -1,16 +1,4 @@
 #!/usr/bin/env bash
 #script that can fix Ngnix installation not listening on port 80.
-
-#Checking of installation is running
-
-if ! pgrep -x "nginx" > /dev/null
-then
-	sudo service nginx start #(start nginx)
-fi
-
-#checking installation is listening on port 80
-if ! sudo netstat -tln | grep ":80\s" > /dev/null
-then
-	sudo sed -i 's/listen\s*\(.*\)\s*default_server;/listen 80 default_server;/g' /etc/nginx/sites-available/default
-	#Restart Nginx
-	sudo service nginx restart
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
