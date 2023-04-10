@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #The script that installs nginx on ubuntu server
-sudo apt-get update -y && sudo apt-get upgrade -y
-sudo apt-get install -y nginx
+apt-get update -y && sudo apt-get upgrade -y
+apt-get install -y nginx
 echo "Hello World!" > /var/www/html/index.html
-sudo ufw allow 'Nginx HTTP'
-sudo service nginx start
+ufw allow 'Nginx HTTP'
+service nginx start
