@@ -1,5 +1,7 @@
-#!/usr/bin/node
+#!/usr/bin/python3
+"""To do list info of given Employee ID"""
 import requests
+import sys
 
 EMPLOYEE_API_URL = "https://jsonplaceholder.typicode.com/users/{id}"
 TODO_API_URL = "https://jsonplaceholder.typicode.com/todos?userId={id}"
