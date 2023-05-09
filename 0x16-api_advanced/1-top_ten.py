@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
-"
- Titles of the first 10 hot post listed for given subsreddit
-"
+"""
+ Titles of the first 10 hot post listed for given subreddit
+"""
 import requests
+
 
 def top_ten(subreddit):
     url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10"
@@ -15,4 +16,3 @@ def top_ten(subreddit):
             print(post['data']['title'])
     else:
         print(None)
-
