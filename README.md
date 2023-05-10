@@ -1,1 +1,1 @@
-# Shell Navigation. Where am I? :smiley:
+# Shell Navigation. In a nutshell? :smiley:
